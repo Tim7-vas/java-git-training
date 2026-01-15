@@ -21,5 +21,9 @@ public class Calculator {
         return Math.pow(a, b);
     }
     public double squareRoot(double x) {
-        return 0;
+        if (x < 0) {
+            throw new IllegalArgumentException("Квадратный корень из отрицательного числа невозможен");
+        }
+        return Math.sqrt(x);
+    }
 }
