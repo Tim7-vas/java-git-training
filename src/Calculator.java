@@ -17,4 +17,7 @@ public class Calculator {
         }
         return (double) a / b;
     }
+    public double power(int a, int b) {
+        return Math.pow(a, b);
+    }
 }
