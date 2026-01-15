@@ -20,4 +20,6 @@ public class Calculator {
     public double power(int a, int b) {
         return Math.pow(a, b);
     }
+    public double squareRoot(double x) {
+        return 0;
 }
